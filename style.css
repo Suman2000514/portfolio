@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+   
+    padding: 0;
+    scroll-behavior: smooth;
+   
+}
+
+
+.navbar{
+    color: whitesmoke;
+    font-size: 1.563em;
+    height: 50px;
+    padding: 0.625em 3.125em;
+    background-color: #3f5e61;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+ 
+}
+.navbar img{
+   
+    height: 60px;
+    width: 200px;
+}
+.navbar ul  {
+   
+    display: flex;
+    list-style: none;
+    gap: 40px;
+   justify-content: end;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+ 
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+.navbar ul li a:hover{
+   color: rgb(20, 21, 21);
+   
+}
+
+#home{
+  
+  margin-top: 0px;
+    height: 95vh;
+    width: auto;
+   background-color: #d2d4d4;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+      
+   
+   
+}
+
+#home h1{
+    color: chocolate;
+}
+
+#home .info{
+    margin-top: 40vh;
+    
+    margin-left: 30vh;
+    font-size: 20px;
+   
+ 
+   text-align: justify;
+  
+}
+
+ a {
+   
+    color: black;
+   text-decoration: none;
+   ;
+    font-size: 20px;
+   
+}
+
+
+
+#home .info .cv button {
+    font-size: 20px;
+    background-color: transparent;
+    height: 5vh;
+    width: 15vw;
+}
+#home .info .cv button:hover{
+     
+   background-color:  rgb(8, 119, 119);
+   color: rgb(16, 16, 16);
+}
+.cv
+{
+    display: flex;
+ gap: 20px;
+  
+}
+
+
+
+
+
+#home .img{
+  
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+  
+   
+}
+
+#home .img img{
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(7, 8, 7);
+    height: 400px ;
+    width: 400px;
+   
+}
+
+#About{
+    
+    margin: 0;
+    height: 60vh;
+    width: auto;
+   background-color: #797c7b;
+   
+   display: flex;
+   gap: 15%;
+ 
+   
+}
+
+.aboutus img{
+  margin-left: 50%;
+  margin-top: 20%;
+   box-shadow: 0 0 10px rgb(7, 8, 7);
+    height: 300px;
+    width: 400px;
+   
+}
+
+.aboutme{
+    margin-right: 5%;
+    margin-top: 5%;
+    height: auto;
+   text-align: justify;
+}
+
+.aboutme h1{
+    color: rgb(202, 197, 193);
+    font-size: 40PX;
+    margin-bottom: 30px;
+}
+
+#skill{
+    margin: 0;
+    padding-top: 20px;
+    height: auto;
+    width: auto;
+   background-color: #d2d4d4;
+}
+
+#skill h1{
+    color: chocolate;
+    font-size: 40px;
+   padding-top: 60px;
+   text-align: center;
+}
+
+#skill h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.skill-icon{
+    padding-top: 50Px;
+padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.icon {
+    height: auto;
+    width: 5% ;
+    transition: all .4s;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+
+#project{
+    margin: 0;
+    padding-top: 20px;
+    height: auto;
+    width: auto;
+   background-color: #797c7b;
+}
+
+   #project h1{
+    color:  rgb(202, 197, 193);
+    font-size: 40px;
+   padding-top: 60px;
+   text-align: center;
+}
+
+#project h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.projects{
+   
+    padding-top: 50px;
+    padding-bottom: 20px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.project1{
+    box-shadow: 0 0 10px rgb(7, 8, 7);
+     background-color: #d2d4d4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.project1 a img:hover{
+transform: scale(1.1);
+}
+.projects .project1 .form{
+    height: 400px;
+    
+}
+.project1{
+    transition: all 1s;
+}
+.project1:hover{
+    transform: scale(1.1);
+}
+
+.projects .project1 a {
+    margin-left: 50%;
+}
+.projects .project1 a img{
+    height: 50px;
+    transition: all .4s;
+}
+
+
+   #contact{
+    margin: 0;
+    height: auto;
+    width: auto;
+   background-color:#d2d4d4;
+  
+   
+   }
+
+   #contact h3{
+    color: chocolate;
+    padding-top: 20px;
+    margin-bottom: 10px;
+   font-size: 30px;
+   font-weight: bold;
+   margin-left: 10%;
+   }
+
+   #contact h1{
+    padding-top: 20px;
+    margin-bottom: 10px;
+   font-size: 50px;
+   font-weight: bold;
+   margin-left: 10%;
+   }
+
+   .social {
+    padding-top: 20px;
+    margin-left: 10% ;
+    display: flex;
+    gap: 30px;
+    
+   }
+
+   .social a img{
+    height: 50px;
+    transition: all .4s;
+   
+   }
+
+   .social a img:hover{
+    transform: scale(1.2);
+   }
+
+   #contact p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   margin-left: 10%;
+   }
+
+   @media only screen and (max-width: 600px) {
+    
+   }
